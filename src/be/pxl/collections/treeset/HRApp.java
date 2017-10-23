@@ -19,7 +19,7 @@ public class HRApp {
 
         System.out.println("Employee with salary > 70000");
         // toon de eerste employee die meer dan 70000 heeft
-
+        System.out.println(ourEmployees.higher(new Employee("",70000)));
         // wat is de betekenis van de volgende methoden
         // geef ook telkens een voorbeeld
         // lower, ceiling, floor, tailSet, headSet, subSet

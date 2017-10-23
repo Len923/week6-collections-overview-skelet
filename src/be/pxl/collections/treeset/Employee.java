@@ -1,6 +1,6 @@
 package be.pxl.collections.treeset;
 
-public class Employee{
+public class Employee implements Comparable<Employee>{
     private String name;
     private int salary;
 
@@ -17,4 +17,15 @@ public class Employee{
     public String toString() {
         return name + " " + salary;
     }
+
+	@Override
+	public int compareTo(Employee o) {
+		// TODO Auto-generated method stub
+		if(salary>o.getSalary()){
+			return 1;
+		} else if(salary<o.getSalary()){
+			return -1;
+		}
+		return 0;
+	}
 }

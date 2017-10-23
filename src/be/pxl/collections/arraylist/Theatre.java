@@ -33,6 +33,7 @@ public class Theatre {
     public boolean reservateSeat(String seatNumber) {
         // implementeer de reservatie van een stoel,
     	// gebruik hierbij de methode getSeatBySeatNumber
+    	return false;
     }
 
     private Seat getSeatBySeatNumber(String seatNumber) {
@@ -41,6 +42,7 @@ public class Theatre {
     	// hoelang duurt het om de laatste stoel in het theater te zoeken
     	// probeer dit eens uit het het hoofdprogramma
     	// stel eventueel nog alternatieven voor
+    	return null;
     }
 
 
